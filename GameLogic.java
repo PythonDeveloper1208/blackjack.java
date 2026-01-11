@@ -372,7 +372,13 @@ class Game {
                       "The player must now perform an action. \n" + 
                       "There are two main actions: Hit and Stand. \n" + 
                       "Hit: Draw a card from the deck. If your new total exceeds 21, you lose. Otherwise, you can continue playing. \n" + 
-                      "Stand: Finalizing your current total ";
+                      "Stand: Finalizing your current total, choosing to draw no more cards, and passing the turn to the dealer. \n" + 
+                      "Additionally, there are three special actions that can be played under specific circumstances: Split, Surrender, and Double. \n" + 
+                      "Split: If your first two cards have the same value, then you can split your hand into two hands and double your bet. \n" + 
+                      "For simplicity, the resulting two hands cannot be split again. \n" + 
+                      "Surrender: For your very first action and only your very first action, you may forfeit your hand in exchange for 50% of your original bet. \n" + 
+                      "Double: On your first turn, you may double your bet and draw exactly 1 card, and then stand and draw no more cards. The dealer then plays. ";
+
 
     
   }
