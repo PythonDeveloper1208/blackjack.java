@@ -360,7 +360,19 @@ class Game {
   
   public static void printRules() {
     
-    String ruleText = "Welcome to Blackjack. \nThe rules are as follows: \nThe player places a bet before the game begins. \nOnce the bet is placed, ";
+    String ruleText = "Welcome to Blackjack. \n" + 
+                      "The rules are as follows: \n" + 
+                      "Each card has a point value. \n" + 
+                      "Number cards are worth their shown number and face cards are 10. \n" + 
+                      "Aces are 1 or 11 (the best value is determined based on the situation). \n " + 
+                      "The goal for everyone is to get as close to 21 as possible without going over. To win, you must get a higher score than the dealer. " + 
+                      "The player places a bet before the game begins. \n" + 
+                      "Once the bet is placed, the dealer begins dealing the cards. " + 
+                      "The dealer deals two cards to the player, face down, and deals two cards to themself: one face up, one face down. \n" + 
+                      "The player must now perform an action. \n" + 
+                      "There are two main actions: Hit and Stand. \n" + 
+                      "Hit: Draw a card from the deck. If your new total exceeds 21, you lose. Otherwise, you can continue playing. \n" + 
+                      "Stand: Finalizing your current total ";
 
     
   }
