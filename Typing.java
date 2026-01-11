@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Typing {
+public class Typing {
   
   static final ArrayList<String> punctuation = new ArrayList<String>(Arrays.asList("!", "?", ".", ";", ":", ","));
   static final double[] defaultDelays = {0.01, 0.02, 0.035, 0.05, 0.075, 0.09, 0.15};
